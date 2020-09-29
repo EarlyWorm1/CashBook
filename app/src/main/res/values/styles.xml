@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFD700</item>
+        <item name="colorPrimaryDark">#FFD700</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- 自定义底部按钮风格-->
+    <style name="Bottom" />
+
+    <style name="Bottom.TabRadioButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/bottom_text1</item>
+    </style>
+    <style name="TabLayoutText">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!--修改日历颜色-->
+    <style name="ThemeDialog" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#FFD700</item>
+        <item name="colorPrimaryDark">#FFD700</item>
+        <item name="colorAccent">#FFD700</item>
+    </style>
+
+</resources>

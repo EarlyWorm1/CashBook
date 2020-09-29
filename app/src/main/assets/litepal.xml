@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="CashBook"></dbname>
+    <version value="1"></version>
+    <list>
+        <mapping class="dhu.cst.yinqingbo416.cashbook.Bill"></mapping>
+    </list>
+</litepal>

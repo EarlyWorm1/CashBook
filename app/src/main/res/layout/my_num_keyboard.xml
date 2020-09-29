@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="290dp"
+    android:layout_gravity="center_horizontal"
+    android:background="#e6e6e6"
+    android:rowCount="6"
+    android:columnCount="4"
+    android:useDefaultMargins="false">
+
+    <Button
+        android:id="@+id/keyboard_remark"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_gravity="fill"
+        android:background="#FFFFFF"
+        android:layout_columnSpan="2"
+        android:gravity="left|center_vertical"
+        android:text="添加备注..."
+        android:paddingLeft="15dp"
+        android:layout_margin="1dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/keyboard_date"
+        android:layout_height="50dp"
+        android:layout_gravity="fill"
+        android:text="2019年12月8日"
+        android:background="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_rowWeight="1"
+        android:layout_margin="1dp"
+        android:layout_columnSpan="2"/>
+    <Button
+        android:id="@+id/keyboard_btn1"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="1"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn2"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="2"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn3"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="3"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+
+    <Button
+        android:id="@+id/keyboard_btn_del"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:text="退回"
+        android:layout_margin="1dp"
+        android:background="#FFFFFF"
+        />
+    <Button
+        android:id="@+id/keyboard_btn4"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="4"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn5"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="5"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn6"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="6"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn_clean"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="清空"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn7"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="7"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn8"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="8"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn9"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="9"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1"/>
+    <Button
+        android:id="@+id/keyboard_btn_sure"
+        android:background="#FFD700"
+        android:text="确定"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1"
+        android:layout_rowSpan="2" />
+    <Button
+        android:id="@+id/keyboard_btn_back"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="返回"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn0"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="0"
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+    <Button
+        android:id="@+id/keyboard_btn_point"
+        android:layout_height="50dp"
+        android:background="#FFFFFF"
+        android:text="."
+        android:layout_margin="1dp"
+        android:layout_rowWeight="1" />
+</GridLayout>
